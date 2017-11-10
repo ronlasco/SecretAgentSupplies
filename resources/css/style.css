@@ -31,3 +31,32 @@ header span {
 	padding: 0.66rem 0.5rem;
 }
 
+/* Main */
+
+.banner {
+	height: 25rem;
+	display: flex;
+	align-items: center;
+	background-image: url("../images/moto.jpeg");
+	background-size: cover;
+}
+
+.newArrival {
+	width: 20rem;
+	background-color: black;
+	color: white;
+	position: relative;
+	/*top: 9rem;*/
+}
+
+.newArrival h4 {
+	font-weight: bold;
+	font-size: 1rem;
+	margin: 2rem 0 0.25rem 3rem;
+}
+
+.newArrival h1 {
+	font-weight: bold;
+	font-size: 2rem;
+	margin: 0 0 2rem 3rem;
+}
