@@ -1,0 +1,33 @@
+html {
+	font-family: Helvetica;
+	font-size: 18px;
+}
+
+.box {
+	width: 960px;
+	margin: 0 auto;
+}
+/* Header */
+
+header {
+	background-color: black;
+}
+
+header .box {
+	display: flex;
+	align-items: center;
+	
+	}
+
+header img {
+	height: 1.5rem;
+	padding: 0.66rem 0.5rem;
+	
+}
+
+header span {
+	color: white;
+	font-size: 1rem;
+	padding: 0.66rem 0.5rem;
+}
+
