@@ -31,7 +31,7 @@ header span {
 	padding: 0.66rem 0.5rem;
 }
 
-/* Main */
+/* ---------------- Main ---------------------------*/
 
 .banner {
 	height: 25rem;
@@ -41,6 +41,7 @@ header span {
 	background-size: cover;
 }
 
+/*still needs work on relative position*/
 .newArrival {
 	width: 20rem;
 	background-color: black;
@@ -61,15 +62,15 @@ header span {
 	margin: 0 0 2rem 3rem;
 }
 
+/*needs work on spacing*/
 nav {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	background-color: firebrick;
-	text-align: center;
+	/*text-align: center;*/
 	color: white;
 	padding: 0.75rem 0;
-
 	/*font-weight: bold;*/
 }
 nav ul {
@@ -77,13 +78,13 @@ nav ul {
 }
 
 nav ul li {
-	display: inline-block;
-	padding: 0 2rem;
+	display: inline-flex;
+	padding-right: 4rem;
 }
 
 .items {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	margin-top: 3rem;
 }
 
@@ -108,4 +109,38 @@ nav ul li {
 	width: 100%;
 	text-align: center;
 	padding: 0.5rem 0;
+}
+
+/* -----------  Business Info ----------------------*/
+
+.bizinfo {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 3rem;
+	margin-bottom: 4rem;
+
+}
+
+.bizdetails {
+	width: 35%;
+}
+
+.bizdetails p {
+	background-color: black;
+	color: white;
+	padding: 1rem 2rem;
+}
+
+/*------------- Footer --------------------*/
+
+footer {
+	background-color: black;
+	color: white;
+}
+footer div {
+	display: flex;
+	align-items: center;
+	height: 5rem;
+	text-align: left;
+
 }
