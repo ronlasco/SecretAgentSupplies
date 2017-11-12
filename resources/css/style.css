@@ -190,14 +190,48 @@ footer div {
 
 @media only screen and (max-width: 470px) {
 
+	.banner {
+		height: 15rem;
+	}
+
 	.newArrival h4 {
 	font-size: 0.77rem;
 	margin: 1rem 0 0.25rem 2rem;
 	}
 
-.newArrival h1 {
+	.newArrival h1 {
 	font-size: 1rem;
 	margin: 0 0 2rem 2rem;
 	}
 
+	.images, .bizinfo {
+		display: block;
+	}
+
+	.items, .bizinfo{
+		max-width: 470px;
+	}
+
+	.images, .bizdetails {
+		width: 90%;
+		display: block;
+		justify-content: center;
+		margin-left: 0.70rem;
+	}
+	
+	.bizdetails {
+		margin-bottom: 0.5rem;
+	}
+	.items > div:nth-child(2) {
+		display: none;
+	}
+
+	footer .box {
+		max-width: 470px;
+		
+	}
+
+	footer div p {
+		margin: 0 auto;
+	}
 }
