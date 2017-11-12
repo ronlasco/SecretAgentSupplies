@@ -47,7 +47,8 @@ header span {
 	background-color: black;
 	color: white;
 	position: relative;
-	/*top: 9rem;*/
+	top: 9rem;
+	margin-bottom: 10rem;
 }
 
 .newArrival h4 {
@@ -194,14 +195,30 @@ footer div {
 		height: 15rem;
 	}
 
+	.newArrival {
+		display: block;
+		
+		
+		
+
+		width: 100%;
+		position: relative;
+		top: 5rem;
+		height: 5rem;
+		margin-bottom: 0rem;
+
+	}
+
 	.newArrival h4 {
 	font-size: 0.77rem;
-	margin: 1rem 0 0.25rem 2rem;
+	padding: 1rem 0 1rem 2rem;
+	margin: 0;
 	}
 
 	.newArrival h1 {
 	font-size: 1rem;
-	margin: 0 0 2rem 2rem;
+	padding: 0 0 2rem 2rem;
+	margin: 0;
 	}
 
 	.images, .bizinfo {
